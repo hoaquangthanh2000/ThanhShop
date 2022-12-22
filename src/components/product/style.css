@@ -35,7 +35,13 @@
   animation: lds-hourglass 3s infinite;
 }
   
-
+.producItem{
+	transition: .3s ease-in-out;
+}
+.producItem:hover{
+  /* -webkit-transform: scale(1.2); */
+	transform: scale(1.2);
+}
 
   
   
